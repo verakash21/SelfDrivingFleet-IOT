@@ -84,7 +84,7 @@ D. Setup your Cloud9 Environment, download the Car code and the AWS IoT CA Publi
 		mkdir ~/environment/car1; mkdir ~/environment/car2; mkdir ~/environment/car3; mkdir ~/environment/car4; mkdir ~/environment/car5; mkdir ~/environment/car6; mkdir ~/environment/car7; mkdir ~/environment/car8; mkdir ~/environment/car9; mkdir ~/environment/car10;
 		3. Copy the pub-sub.js file from git repo and copy in each car dir.
 			cd ~/environment
-			wget https://github.com/rohanbhutani1993/ScalableIoT---Project4/blob/master/pub-sub.js
+			wget https://github.com/verakash21/SelfDrivingFleet-IOT/blob/master/pub-sub.js
 			#Replace car number with <number> to copy file to each car folder.
 			cp pub-sub.js car<number>/
 			rm pub-sub.js
@@ -165,7 +165,7 @@ K. Communicate between two cars:
 			sudo pip install AWSIoTPythonSDK
 		2. Download the application code in project folder by running the following commands in your AWS Cloud9 terminal for all cars
 		cd ~/environment/car<number>
-		wget https://github.com/rohanbhutani1993/ScalableIoT---Project4/blob/master/communicate.py
+		wget https://github.com/verakash21/SelfDrivingFleet-IOT/blob/master/communicate.py
 		3. For each car folder change topic name at line:143 in communicate.py 
 		 Ex: Change myAWSIoTMQTTClient.subscribe(dev1Topic, 1, onMessageCallback) to myAWSIoTMQTTClient.subscribe(dev2Topic, 1, onMessageCallback) for creating car2 communication file
 		4. Start the code for each car in different terminals:
