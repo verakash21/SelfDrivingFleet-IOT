@@ -1,0 +1,14 @@
+#Message to share location
+GPS:39.122229,-77.133578|scalable/messaging/car1|scalable/messaging/car2
+
+#Message to send emergency message
+SOS: CBRXP1J Broken at 39.122229,-77.133578|scalable/messaging/car1|scalable/messaging/car3
+
+#Message to join fleet
+JoinFleet:car2|scalable/messaging/car1|scalable/messaging/car2
+
+#Message to join fleet
+JoinFleet:car4|scalable/messaging/car2|scalable/messaging/car4
+
+#Message to join fleet
+JoinFleet:car5|scalable/messaging/car4|scalable/messaging/car5
